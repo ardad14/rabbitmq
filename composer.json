@@ -1,0 +1,19 @@
+{
+    "name": "kuptsov/rabbitmq-service",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kuptsov\\RabbitmqService\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artem Kuptsov",
+            "email": "kuptsov210@gmail.com"
+        }
+    ],
+    "require": {
+        "vladimir-yuldashev/laravel-queue-rabbitmq": "^12.0"
+    }
+}
