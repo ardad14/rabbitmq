@@ -1,9 +1,8 @@
 <?php
 
-namespace App\Services;
+namespace Kuptsov\RabbitmqService\Services;
 
 use Illuminate\Support\Facades\Log;
-use Kuptsov\RabbitmqService\Services\SupportsQueueInterface;
 
 class RabbitMqService
 {
